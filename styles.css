@@ -190,26 +190,24 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-.web-link {
-    display: block;
-    color: #ff5555;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.web-link img {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
 .github-link img {
     width: 20px;
     height: 20px;
     vertical-align: middle;
     margin-right: 5px;
+}
+
+.project-page-link {
+    display: block;
+    color: #ff5555; /* Red text for the project page link */
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.project-page-link i {
+    margin-right: 5px;
+    font-size: 20px; /* Adjust the size of the icon */
 }
 
 /* Style section IDs with a black background */
@@ -384,6 +382,7 @@ nav ul li a:hover {
     /* Project section adjustments */
     .project {
         width: 50%; /* Full width on smaller screens */
+        padding: 0 1rem 1rem 1rem;
     }
 
     .project h3 {
@@ -413,16 +412,16 @@ nav ul li a:hover {
 
     .odd-projects, .even-projects {
         width: 100%; /* Full width for project containers on smaller screens */
-        margin: 20px auto; /* Adjust margins for spacing */
+        margin: 3rem auto; /* Adjust margins for spacing */
     }
 
     .upcoming-project {
-        width: 100%; /* Full width for individual projects on smaller screens */
+        width: 80%; /* Full width for individual projects on smaller screens */
         padding: 20px; /* Increase padding for better spacing */
     }
 
     #contact_info {
-        width: 90%; /* Increase width to make it more responsive */
+        width: 70%; /* Increase width to make it more responsive */
     }
 
     /* Project section adjustments */
