@@ -1,17 +1,14 @@
-/* styles.css */
-
-/* Apply a dark-themed environment with a black background and keep the "pop-out" effect */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #000; /* Black background */
-    color: #eee; /* Light text color */
+    background-color: #000;
+    color: #eee;
     margin: 0;
     padding: 0;
 }
 
 header {
     text-align: center;
-    color: #fff; /* White text */
+    color: #fff;
     padding: 30px 0;
 }
 
@@ -52,33 +49,33 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff5555; /* Red text for the button */
+    color: #ff5555;
     font-size: 18px;
     text-transform: uppercase;
     transition: color 0.3s;
-    border: 2px solid #ff5555; /* Add a border */
-    padding: 10px 20px; /* Add some padding to make it a button shape */
-    border-radius: 20px; /* Round the corners */
+    border: 2px solid #ff5555;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 nav ul li a:hover {
-    color: #fff; /* White text on hover */
-    background-color: #ff5555; /* Red background on hover */
+    color: #fff;
+    background-color: #ff5555;
 }
 
-/* Add this CSS to style the "Catch Phrase" section */
+
 
 #catch-phrase {
-    background-color: #111; /* Dark gray background for the section */
-    color: #fff; /* White text color */
+    background-color: #111;
+    color: #fff;
     text-align: center;
     padding: 60px;
-    margin: 0; /* Remove margin to fill the width entirely on mobile */
-    border-radius: 0; /* Remove border radius */
+    margin: 0;
+    border-radius: 0;
 }
 
 #catch-phrase h2 {
-    font-size: 36px; /* Adjust the font size as needed */
+    font-size: 36px;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -87,18 +84,18 @@ nav ul li a:hover {
 #catch-phrase p {
     font-size: 18px;
     color: #ff5555;;
-    margin-top: 10px; /* Add space between the heading and subheading */
+    margin-top: 10px;
 }
 
 
 
-/* Add this to styles.css */
 
-/* Style the "Skills" section */
+
+
 #languages {
-    color: #eee; /* Light text color */
+    color: #eee;
     padding: 40px;
-    margin: 20px auto; /* Center horizontally by setting left and right margins to auto */
+    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -106,7 +103,7 @@ nav ul li a:hover {
 
 #languages h2 {
     font-size: 28px;
-    color: #ff5555; /* Red text for section titles */
+    color: #ff5555;
     text-align: center;
     margin: auto;
     padding-bottom: 2rem;
@@ -118,12 +115,12 @@ nav ul li a:hover {
 }
 
 .language img {
-    width: 50px; /* Adjust the size as needed */
-    height: 50px; /* Adjust the size as needed */
+    width: 50px;
+    height: 50px;
 }
 
 .language i {
-    font-size: 50px; /* Adjust the size as needed */
+    font-size: 50px;
 }
 
 .language p {
@@ -131,16 +128,16 @@ nav ul li a:hover {
 }
 
 .language:hover {
-    transform: scale(1.1); /* Increase size on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 
-/* Style the project sections with a black background and "pop-out" effect */
+
 .project {
-    background-color: #111111; /* Dark gray background for project sections */
-    color: #eee; /* Light text color */
+    background-color: #111111;
+    color: #eee;
     padding: 0 2rem 2rem 2rem;
     width: 50%;
     height: auto;
@@ -173,7 +170,7 @@ nav ul li a:hover {
 .project h3 {
     font-size: 24px;
     margin: 10px 0;
-    color: #ff5555; /* Red text for project titles */
+    color: #ff5555;
 }
 
 .project p {
@@ -181,10 +178,10 @@ nav ul li a:hover {
     text-align: center;
 }
 
-/* Style the GitHub links and icons */
+
 .github-link {
     display: block;
-    color: #ff5555; /* Red text for GitHub links */
+    color: #ff5555;
     text-decoration: none;
     font-size: 16px;
     margin-top: 10px;
@@ -199,7 +196,7 @@ nav ul li a:hover {
 
 .project-page-link {
     display: block;
-    color: #ff5555; /* Red text for the project page link */
+    color: #ff5555;
     text-decoration: none;
     font-size: 16px;
     margin-top: 10px;
@@ -207,12 +204,12 @@ nav ul li a:hover {
 
 .project-page-link i {
     margin-right: 5px;
-    font-size: 20px; /* Adjust the size of the icon */
+    font-size: 20px;
 }
 
-/* Style section IDs with a black background */
+
 #projects, #about, #contact {
-    color: #eee; /* Light text color */
+    color: #eee;
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
@@ -221,14 +218,14 @@ nav ul li a:hover {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Style the "Upcoming Projects" section */
+
 #upcoming-project-container {
     width: 80%;
     margin: 2rem auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; /* Add space between columns */
+    justify-content: space-between;
 }
 
 #upcoming-project-container h2 {
@@ -242,8 +239,8 @@ nav ul li a:hover {
 
 .odd-projects,
 .even-projects {
-    width: 48%; /* Set the width to create two columns */
-    color: #eee; /* Light text color */
+    width: 48%;
+    color: #eee;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(0);
@@ -273,17 +270,17 @@ nav ul li a:hover {
 .upcoming-project h3 {
     font-size: 24px;
     margin: 10px 0;
-    color: #ff5555; /* Red text for project titles */
+    color: #ff5555;
 }
 
 .upcoming-project p {
     font-size: 18px;
 }
 
-/* Style the GitHub links and icons */
+
 .github-link {
     display: block;
-    color: #ff5555; /* Red text for GitHub links */
+    color: #ff5555;
     text-decoration: none;
     font-size: 16px;
     margin-top: 10px;
@@ -299,15 +296,15 @@ nav ul li a:hover {
 
 
 
-/* styles.css */
 
-/* Styling for the "Contact Me" section */
+
+
 #contact_info {
-    background-color: #111; /* Dark gray background for the "Contact Me" section */
+    background-color: #111;
     width: 30%;
-    color: #eee; /* Light text color */
+    color: #eee;
     padding: 40px;
-    margin: 20px auto; /* Center horizontally by setting left and right margins to auto */
+    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -315,26 +312,26 @@ nav ul li a:hover {
 
 #contact_info h2 {
     font-size: 28px;
-    color: #ff5555; /* Red text for section titles */
+    color: #ff5555;
 }
 
 #contact_info p {
     font-size: 16px;
-    margin-bottom: 20px; /* Adds space between paragraphs */
+    margin-bottom: 20px;
     text-align: start;
 }
 
 
-/* Default styles for larger screens */
-/* ... Your existing CSS ... */
 
-/* Media query for screens up to 768px wide (typical for tablets) */
+
+
+
 @media screen and (max-width: 768px) {
-    /* Adjustments for smaller screens */
+   
 
-    /* Header and nav adjustments */
+   
     nav {
-        flex-direction: column; /* Stack navigation links on top of each other */
+        flex-direction: column;
         align-items: flex-start;
     }
 
@@ -351,19 +348,17 @@ nav ul li a:hover {
         margin-bottom: 1rem;
     }
 
-    /* Catch Phrase section adjustments */
 
     #catch-phrase h2 {
-        font-size: 28px; /* Adjust the font size */
+        font-size: 28px;
     }
 
     #catch-phrase p {
-        font-size: 16px; /* Adjust the font size */
+        font-size: 16px;
     }
 
-    /* Skills section adjustments */
     #languages {
-        padding: 20px; /* Reduce padding */
+        padding: 20px; 
     }
 
     .language {
@@ -372,25 +367,24 @@ nav ul li a:hover {
 
     .language img,
     .language i {
-        font-size: 30px; /* Adjust the size of icons */
+        font-size: 30px;
     }
 
     .language p {
-        font-size: 14px; /* Adjust font size */
+        font-size: 14px;
     }
 
-    /* Project section adjustments */
     .project {
-        width: 50%; /* Full width on smaller screens */
+        width: 50%;
         padding: 0 1rem 1rem 1rem;
     }
 
     .project h3 {
-        font-size: 25px; /* Reduce font size for project titles */
+        font-size: 25px;
     }
 
     .project p {
-        font-size: 14px; /* Further reduce font size */
+        font-size: 14px;
     }
 
     .project img {
@@ -402,110 +396,109 @@ nav ul li a:hover {
     }
 
     .github-link {
-        font-size: 14px; /* Adjust font size */
+        font-size: 14px;
     }
 
-    /* Upcoming Projects section adjustments */
     #upcoming-project-container {
-        width: 90%; /* Decrease width for better mobile responsiveness */
+        width: 90%;
     }
 
     .odd-projects, .even-projects {
-        width: 100%; /* Full width for project containers on smaller screens */
-        margin: 3rem auto; /* Adjust margins for spacing */
+        width: 100%;
+        margin: 3rem auto;
     }
 
     .upcoming-project {
-        width: 80%; /* Full width for individual projects on smaller screens */
-        padding: 20px; /* Increase padding for better spacing */
+        width: 80%;
+        padding: 20px;
     }
 
     #contact_info {
-        width: 70%; /* Increase width to make it more responsive */
+        width: 70%;
     }
 
-    /* Project section adjustments */
+
     #projects .project {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%; 
     }
 }
 
-/* Media query for screens up to 480px wide (typical for mobile phones) */
+
 @media screen and (max-width: 480px) {
-    /* Further adjustments for smaller screens */
+   
 
     nav ul li a {
-        font-size: 14px; /* Reduce font size for navigation links */
-        padding: 8px 16px; /* Adjust padding for navigation links */
+        font-size: 14px;
+        padding: 8px 16px;
     }
 
-    /* Catch Phrase section adjustments */
+   
     #catch-phrase h2 {
-        font-size: 24px; /* Further reduce font size */
+        font-size: 24px;
     }
 
     #catch-phrase p {
-        font-size: 14px; /* Further reduce font size */
+        font-size: 14px;
     }
 
-    /* Skills section adjustments */
+   
     .language img,
     .language i {
-        font-size: 24px; /* Further reduce icon size */
+        font-size: 24px;
     }
 
     .language p {
-        font-size: 12px; /* Further reduce font size */
+        font-size: 12px;
     }
 
     .project{
-        width: 60%; /* Adjust image size */
+        width: 60%;
     }
 
-    /* Project section adjustments */
+   
     .project img {
-        width: 15%; /* Adjust image size */
+        width: 15%;
     }
 
     .project h3 {
-        font-size: 20px; /* Reduce font size for project titles */
+        font-size: 20px;
     }
 
     .project p {
-        font-size: 14px; /* Further reduce font size */
+        font-size: 14px;
     }
 
     .github-link {
-        font-size: 12px; /* Further reduce font size */
-        padding: 5px 10px; /* Adjust padding for GitHub links */
+        font-size: 12px;
+        padding: 5px 10px;
     }
 
-    /* Upcoming Projects section adjustments */
+   
 
     .upcoming-project{
-        width: 80%; /* Adjust image size */
+        width: 80%;
     }
 
     .upcoming-project img {
-        width: 40%; /* Adjust image size */
+        width: 40%;
     }
 
     .upcoming-project h3 {
-        font-size: 20px; /* Reduce font size for project titles */
+        font-size: 20px;
     }
 
     .upcoming-project p {
-        font-size: 14px; /* Further reduce font size */
+        font-size: 14px;
     }
 
     .github-link {
-        font-size: 12px; /* Further reduce font size */
-        padding: 5px 10px; /* Adjust padding for GitHub links */
+        font-size: 12px;
+        padding: 5px 10px;
     }
 
     #contact_info {
-        width: 80%; /* Full width on smaller screens */
-        padding: 20px; /* Increase padding for better spacing */
+        width: 80%;
+        padding: 20px;
         font-size: 8px;
     }
 
